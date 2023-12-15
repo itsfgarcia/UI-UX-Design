@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    height: 20rem;
+    width: 20rem;
+    margin: 0 5%;
+}
+
+.titulo {
+    color: #ffab00;
+    -webkit-text-stroke: 0.25px black;
+    font-family: 'Six Caps', sans-serif;
+    font-stretch: semi-expanded;
+    margin-left: 35.5%;
+    margin-right: 35.5%;
+    transform: scaleX(2);
+    letter-spacing: 0.025em;
+    font-size: 7.75rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3.25rem;
+    background: #801515;
+}
+
