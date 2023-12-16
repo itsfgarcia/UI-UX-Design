@@ -1,0 +1,45 @@
+/* Media query para dispositivos con ancho de hasta 768px */
+@media only screen and (max-width: 768px) {
+    .header {
+      font-size: 4vw;
+      height: auto;
+    }
+  
+    .titulo {
+      font-size: 8vw;
+      margin-bottom: 2%;
+      margin-top: 2%;
+    }
+  
+    .logo {
+      margin-left: 0;
+      margin-top: 0.5%; 
+      max-width: 80%; /* Ajustar el ancho del logo al 80% */
+    }
+  
+    .navegacion {
+      height: auto;
+      flex-direction: row;
+      justify-content: flex-start; 
+      text-align: left; 
+    }
+  
+    .iconos {
+      margin: 0.75rem;
+      font-size: 4vw;
+    }
+  
+    .iconos2 {
+      margin: 0.75rem;
+      height: 1rem;
+      width: 1rem;
+    }
+  
+    .textoNav {
+      margin: 0.75rem;
+      font-size: 7.5rem;
+    }
+  }  
+  
+  
+  
