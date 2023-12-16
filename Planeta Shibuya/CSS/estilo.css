@@ -1,30 +1,84 @@
+/* Estilos generales que no dependen del tamaño de la pantalla */
+
 * {
-    margin: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-    height: 20rem;
-    width: 20rem;
-    margin: 0 5%;
-}
-
-.titulo {
-    color: #ffab00;
-    -webkit-text-stroke: 0.25px black;
-    font-family: 'Six Caps', sans-serif;
-    font-stretch: semi-expanded;
-    margin-left: 35.5%;
-    margin-right: 35.5%;
-    transform: scaleX(2);
-    letter-spacing: 0.025em;
-    font-size: 7.75rem;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 3.25rem;
-    background: #801515;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2vw;
+  background-color: #801515;
+  color: #fff;
+  font-size: 2vw;
+  height: 10.56vw;
 }
 
+.titulo {
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 0.5vw;
+  text-shadow: -0.02em -0.02em 0.1em rgba(0, 0, 0, 0.5),
+    0.02em -0.02em 0.1em rgba(0, 0, 0, 0.5),
+    -0.02em 0.02em 0.1em rgba(0, 0, 0, 0.5),
+    0.02em 0.02em 0.1em rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: 9vw;
+  color: #ffba20;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 9.25vw;
+  height: auto;
+  z-index: 2;
+  margin-left: -21vw;
+  padding-top: 0.75rem;
+}
+
+.navegacion {
+  background-color: #fcf9f2;
+  margin-left: 0.75rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.iconos {
+  margin-left: 0.55rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.75rem;
+}
+
+.iconos2 {
+  margin-left: 1.35rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.textoNav {
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 0.2vw;
+  font-weight: 1.55vw;
+  font-size: 2vw;
+  margin-top: 1.35rem;
+  margin-left: 1.35rem;
+  margin-bottom: 1.35rem;
+}
