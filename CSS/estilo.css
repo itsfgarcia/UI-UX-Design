@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #801515;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  height: 10.56vw;
+  font-size: 2vw;
+  color: #fff;
+  display: flex;
+  padding: 2vw;
+}
+
+.titulo {
+  text-shadow: -0.02em -0.02em 0.1em rgba(0, 0, 0, 0.5),
+    0.02em -0.02em 0.1em rgba(0, 0, 0, 0.5),
+    -0.02em 0.02em 0.1em rgba(0, 0, 0, 0.5),
+    0.02em 0.02em 0.1em rgba(0, 0, 0, 0.5);
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 0.5vw;
+  position: relative;
+  color: #ffba20;
+  font-weight: 500;
+  font-size: 9vw;
+  z-index: 1;
+}
+
+.logo {
+  transform: translate(-50%, -50%);
+  padding-top: 0.75rem;
+  position: absolute;
+  margin-left: -21vw;
+  max-width: 100%;
+  width: 9.25vw;
+  height: auto;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+}
+
+.navegacion {
+  background-color: #fcf9f2;
+  margin-left: 0rem;
+  height: 4.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.iconos {
+  margin-left: 0.55rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.75rem;
+}
+
+.iconos2 {
+  margin-left: 1.25rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+  width: 2.55rem;
+  height: 2.55rem;
+}
+
+.textoNav {
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 0.2vw;
+  font-weight: 1.55vw;
+  font-size: 2.5rem;
+  margin-top: 1.35rem;
+  margin-left: 1.75rem;
+  margin-bottom: 1.35rem;
+}
+
+.panelComic {
+  width: 29rem;
+  height: 38.5em;
+  margin: 2em auto;
+  margin-left: 1.5em;
+  background-color: #fff;
+  padding: 1.5em;
+  border: 8px solid #333;
+  position: relative;
+}
+.imagenCambiable img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-bottom: 1em; /* Ajusta el margen inferior según sea necesario */
+}
