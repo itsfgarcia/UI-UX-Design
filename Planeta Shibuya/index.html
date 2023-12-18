@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap">
-    <script src="https://kit.fontawesome.com/e0de6eaeff.js" crossorigin="anonymous"></script>
-    <link href="CSS/estilo-responsive.css" rel="stylesheet" type="text/css">
-    <link href="CSS/estilo.css" rel="stylesheet" type="text/css">
-    <title>Planeta Shibuya</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" />
+  <script src="https://kit.fontawesome.com/e0de6eaeff.js"></script>
+  <link href="CSS/estilo-responsive.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/estilo.css" rel="stylesheet" type="text/css" />
+  <script src="JS/index.js"></script>
+  <title>Planeta Shibuya</title>
 </head>
+
 <body>
-    <div class="header">
-        <img class="logo" src="IMG/Logos/logo.png" alt="logo">
-        <h1 class="titulo">Planeta Shibuya</h1>
+    <div class="contenedor">
+        <div class="header">
+            <img class="logo" src="IMG/Logos/logo.png" alt="logo" />
+            <h1 class="titulo">Planeta Shibuya</h1>
+          </div>
+          <div>
+            <nav class="navegacion">
+              <i class="fa-solid fa-bars iconos"></i>
+              <img class="iconos2" src="IMG/Logos/logo-empresarial.png" />
+              <p class="textoNav">Inicio</p>
+            </nav>
+          </div>
     </div>
-    <div>
-        <nav class="navegacion">
-            <i class="fa-solid fa-bars iconos"></i>
-            <img class="iconos2" src="IMG/Logos/logo-empresarial.png">
-            <p class="textoNav">Inicio</p>
-        </nav>
+  <div class="panelComic">
+    <!-- Contenedor de la imagen -->
+    <div class="imagenCambiable" onclick="cambiarImagen()">
+      <img id="imagenActual" src="IMG/place-holder.jpg" alt="Imagen por defecto" />
     </div>
+  </div>
 </body>
+
 </html>
 
