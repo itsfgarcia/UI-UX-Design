@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap">
-    <script src="https://kit.fontawesome.com/e0de6eaeff.js" crossorigin="anonymous"></script>
-    <link href="CSS/estilo-responsive.css" rel="stylesheet" type="text/css">
-    <link href="CSS/estilo.css" rel="stylesheet" type="text/css">
-    <title>Planeta Shibuya</title>
-</head>
-<body>
-    <div class="header">
-        <img class="logo" src="IMG/Logos/logo.png" alt="logo">
-        <h1 class="titulo">Planeta Shibuya</h1>
-    </div>
-    <div>
-        <nav class="navegacion">
-            <i class="fa-solid fa-bars iconos"></i>
-            <img class="iconos2" src="IMG/Logos/logo-empresarial.png">
-            <p class="textoNav">Inicio</p>
-        </nav>
-    </div>
-</body>
-</html>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" />
+  <script src="https://kit.fontawesome.com/e0de6eaeff.js"></script>
+  <link href="CSS/estilo-responsive.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/estilo.css" rel="stylesheet" type="text/css" />
+  <script src="JS/index.js"></script>
+  <title>Planeta Shibuya</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <img class="logo" src="IMG/Logos/logo.png" alt="logo" />
+            <h1 class="titulo">Planeta Shibuya</h1>
+          </div>
+          <div>
+            <nav class="navegacion">
+              <i class="fa-solid fa-bars iconos"></i>
+              <img class="iconos2" src="IMG/Logos/logo-empresarial.png" />
+              <p class="textoNav">Inicio</p>
+            </nav>
+          </div>
+    </div>
+  <div class="panelComic">
+    <div class="imagenCambiable" onclick="cambiarImagen()">
+      <img id="imagenActual" src="IMG/place-holder.jpg" alt="Imagen por defecto" />
+    </div>
+    <div class="presenta">
+      <p class="presentacion">¿Qué es Planeta Shibuya?</p>
+      <img id="imagenActual" src="IMG/banner.jpg" alt="estación" />
+    </div>
+  </div>
+  <br>
+    <div class="panelComic2">
+      <div class="viñeta3">
+        <img src="IMG/tracker.png" alt="tracker" class="tracker"/>
+      </div>
+      <div class="viñeta4">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <img src="IMG/Maki.png" alt="Maki" class="mascota"/>
+  </div>
+</body>
+
+</html>
