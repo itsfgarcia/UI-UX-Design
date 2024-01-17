@@ -13,40 +13,43 @@
 </head>
 
 <body>
-    <div class="contenedor">
-        <div class="header">
-            <img class="logo" src="IMG/Logos/logo.png" alt="logo" />
-            <h1 class="titulo">Planeta Shibuya</h1>
-          </div>
-          <div>
-            <nav class="navegacion">
-              <i class="fa-solid fa-bars iconos"></i>
-              <img class="iconos2" src="IMG/Logos/logo-empresarial.png" />
-              <p class="textoNav">Inicio</p>
-            </nav>
-          </div>
+  <div class="contenedor">
+    <div class="header">
+      <img class="logo" src="IMG/Logos/logo.png" alt="logo" />
+      <h1 class="titulo">Planeta Shibuya</h1>
     </div>
+    <div>
+      <nav class="navegacion">
+        <i class="fa-solid fa-bars iconos"></i>
+        <img class="iconos2" src="IMG/Logos/logo-empresarial.png" />
+        <p class="textoNav">Inicio</p>
+      </nav>
+    </div>
+  </div>
   <div class="panelComic">
-    <div class="imagenCambiable" onclick="cambiarImagen()">
+    <div class="imagenCambiable" onclick="cambiarImagen('imagenActual')">
       <img id="imagenActual" src="IMG/place-holder.jpg" alt="Imagen por defecto" />
     </div>
     <div class="presenta">
       <p class="presentacion">¿Qué es Planeta Shibuya?</p>
-      <img id="imagenActual" src="IMG/banner.jpg" alt="estación" />
+      <img id="imagenPresenta" src="IMG/banner.jpg" alt="estación" />
     </div>
   </div>
   <br>
-    <div class="panelComic2">
-      <div class="viñeta3">
-        <img src="IMG/tracker.png" alt="tracker" class="tracker"/>
-      </div>
-      <div class="viñeta4">
-      </div>
+  <div class="viñeta3">
+    <img src="IMG/tracker.png" alt="tracker" class="tracker" />
+  </div>
+  <div class="viñeta4" onclick="cambiarImagen2()">
+    <div class="heroes">
+      <img id="imagenActual2" src="IMG/nicodiangelo.jpg" alt="Imagen por defecto" />
     </div>
   </div>
+  </div>
   <div class="footer">
-    <img src="IMG/Maki.png" alt="Maki" class="mascota"/>
+    <img src="IMG/Maki.png" alt="Maki" class="mascota" />
   </div>
 </body>
 
 </html>
+
+

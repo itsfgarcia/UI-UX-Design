@@ -18,11 +18,11 @@ body {
   align-items: center;
   position: relative;
   text-align: center;
-  height: 10.56vw;
+  height: 9.56vw;
   font-size: 2vw;
   color: #fff;
   display: flex;
-  padding: 2vw;
+  padding: 2rem;
 }
 
 .titulo {
@@ -34,6 +34,8 @@ body {
   letter-spacing: 0.5vw;
   position: relative;
   color: #ffba20;
+  margin-left: 25%;
+  margin-right: 25%;
   font-weight: 500;
   font-size: 9vw;
   z-index: 1;
@@ -78,35 +80,30 @@ body {
   font-family: "Six Caps", sans-serif;
   letter-spacing: 0.2vw;
   font-weight: 1.55vw;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 1.35rem;
-  margin-left: 1.75rem;
+  margin-left: 2.25rem;
   margin-bottom: 1.35rem;
 }
 
-.contenedorPaneles {
-  display: flex;
-  justify-content: space-between;
-  margin: 2em 0;
-}
-
 .panelComic {
-  width: 29rem;
-  height: 38.5em;
+  width: 34rem;
+  height: 47.5em;
   background-color: #fff;
   padding: 2.5em;
   border: 8px solid #333;
   position: relative;
-  margin: 3em; 
+  margin-top: 3.5rem;
+  margin-left: 9.55rem;
 }
 
 .presenta {
-  width: 78rem;
-  height: 38.5em;
+  width: 98rem;
+  height: 48.5em;
   background-color: #fff;
   border: 8px solid #333;
   position: relative;
-  margin-left: 30.5em;
+  margin-left: 37.5em;
   margin-bottom: 3rem;
 }
 
@@ -129,7 +126,7 @@ body {
   font-family: "Six Caps", sans-serif;
   letter-spacing: 0.75vw;
   font-weight: 550;
-  font-size: 4.5rem;
+  font-size: 6.25rem;
 }
 .imagenCambiable img {
   width: 100%;
@@ -158,26 +155,41 @@ body {
 }
 
 .viñeta3 {
-  width: 78rem;
-  height: 38.5em;
-  margin: 2.25rem;
+  width: 98rem;
+  height: 48.5em;
   background-color: #fff;
   border: 8px solid #333;
   position: relative;
+  margin-top: 7.35rem;
+  margin-left: 7.5em;
+  margin-bottom: 6.5rem;
   display: inline-block;
+}
+
+.viñeta3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .viñeta4 {
-  width: 29rem;
-  height: 38.5em;
+  width: 34rem;
+  height: 47.5em;
   background-color: #fff;
-  padding: 2.5em;
   border: 8px solid #333;
+  margin-top: 3.75rem;
+  margin-left: 5.5rem;
   position: relative;
   display: inline-block;
-  margin: 2.25rem;
+  overflow: hidden;
 }
 
+.viñeta4 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+}
 .mascota {
   transform: translate(-50%, -50%);
   padding-top: 0.75rem;
@@ -195,7 +207,7 @@ body {
   background-color: #363a3b;
   justify-content: left;
   position: relative;
-  height: 12.56vw;
+  height: 9.56vw;
   font-size: 2vw;
   color: #fff;
   display: flex;

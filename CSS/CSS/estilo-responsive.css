@@ -1,9 +1,10 @@
 @media (max-width: 1024px) {
-    .titulo{
-        width: calc(70% / 3);
-        margin:  50%;
+    .contenedor {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 2rem;
     }
-}
 
 @media (max-width: 768px) {
     .apartado1, .apartado2, .apartado3{
@@ -19,4 +20,4 @@
         width: 96%;
         margin: 0 2%;
     }
-}
+}}
