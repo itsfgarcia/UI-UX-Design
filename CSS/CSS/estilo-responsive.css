@@ -18,6 +18,6 @@
     .apartado1, .apartado2, .apartado3{
         width: calc(70% / 2);
         width: 96%;
-        margin: 0 2%;
+        margin: 2% 2%;
     }
 }}
