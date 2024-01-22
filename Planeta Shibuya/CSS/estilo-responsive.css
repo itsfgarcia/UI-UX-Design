@@ -1,5 +1,16 @@
 @media (max-width: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
+    .header {
+        height: 12.56vw;
+    }
+
+    .textoNav {
+        font-size: 180%;
+    }
     .contenedor {
         margin: 2% 0;
     }
@@ -15,7 +26,7 @@
     .presenta {
         width: 62%;
         height: 50%;
-        margin: 2% 2%;
+        margin: 8% 2%;
         background-color: #fff;
         border: 8px solid #333;
     }
@@ -27,7 +38,7 @@
 
     .viñeta3 {
         width: 64%;
-        margin: 2% 2%;
+        margin: 4% 2% 4%;
         height: 50%;
         border: 8px solid #333;
     }
@@ -50,12 +61,16 @@
     }
     
     .copyright {
-        margin: 3.5% 4%;
+        margin: 3.5% 9%;
         display: flex;
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .idiomas {
         display: none;
+    }
+
+    .footer {
+        height: 16.1vw;
     }
 }
