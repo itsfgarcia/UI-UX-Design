@@ -22,7 +22,6 @@ body {
   font-size: 2vw;
   color: #fff;
   display: flex;
-  padding: 2rem;
 }
 
 .titulo {
@@ -128,10 +127,10 @@ body {
 }
 .presenta {
   width: 58.75vw;
-  height: 28.5vw;
+  height: 32.5vw;
   background-color: #fff;
   border: 8px solid #333;
-  position: relative;
+  position: absolute;
   display:inline-block;
 }
 
@@ -185,7 +184,7 @@ body {
 
 .viñeta3 {
   width: 55vw;
-  height: 27.5vw;
+  height: 40.5vw;
   background-color: #fff;
   border: 8px solid #333;
   position: relative;
@@ -238,6 +237,7 @@ body {
 }
 
 .copy {
+  margin-top: 1.25rem;
   margin-left: 1.5rem;
   font-size: 2rem;
 }

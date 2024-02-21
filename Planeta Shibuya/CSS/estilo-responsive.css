@@ -1,7 +1,13 @@
 @media (max-width: 1024px) {
+    * {
+        box-sizing: border-box;
+    }
+    .navegacion {
+        margin: 0 0 2% 0;
+    }
 
-    .contenedor {
-        margin: 2% 0;
+    .textoNav {
+        font-size: 160%;
     }
 
     .busqueda {
@@ -9,16 +15,16 @@
         width: 32%;
     }
     .presentacion {
-        font-size: 6vw;
+        font-size: 5.25vw;
     }
 
     .presenta {
         width: 62%;
-        height: 50%;
-        margin: 2% 2%;
+        margin: 9% 2%;
         background-color: #fff;
         border: 8px solid #333;
     }
+
     .panelComic {
         height: 40vw;
         width: 28%;
@@ -28,7 +34,6 @@
     .viñeta3 {
         width: 64%;
         margin: 2% 2%;
-        height: 50%;
         border: 8px solid #333;
     }
 
@@ -49,13 +54,21 @@
         width: auto;
     }
     
+    .textoCopy, .textoPolicy {
+        margin-top: 2%;
+        font-size: 100%;
+    }
     .copyright {
-        margin: 3.5% 4%;
+        margin: 3.8% 4%;
         display: flex;
         font-size: 70%;
     }
 
     .idiomas {
         display: none;
+    }
+
+    .footer {
+        height: 17.2vw;
     }
 }

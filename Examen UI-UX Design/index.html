@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/responsive-styles.css" />
+    <title>Examen</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedorImagen">
+            <img src="IMG/logo.png" alt="logo" class="logo img-fluid">
+            <img src="IMG/ciclistas.jpg" alt="ciclistas" class="img-fluid banner" />
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Adirondak Mountain Club</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <div class="menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" aria-disabled="true">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Noticias</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Equipos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Calendario</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Parnerts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Compromiso</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Tienda</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            </nav>
+            <h1 class="lema"> ¡Al que madruga, la bici ayuda!</h1>
+            <div class="row row-cols-lg-2 row-cols-md-1 g-3 tarjetas">
+                <div class="col">
+                    <div class="card">
+                        <img src="IMG/senderismo.jpg" class="card-img-top img-fluid" alt="Ruta Naturaleza" />
+                        <div class="card-body">
+                            <h5 class="card-title">Ruta Naturaleza</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ab reprehenderit?
+                                Doloremque, expedita ducimus quidem et officiis sint aspernatur sunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">LEER MÁS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="IMG/infantil.jpg" class="card-img-top img-fluid" alt="Club Infantil" />
+                        <div class="card-body">
+                            <h5 class="card-title">Club Infantil</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ab reprehenderit?
+                                Doloremque, expedita ducimus quidem et officiis sint aspernatur sunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">LEER MÁS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="IMG/competicion.jpeg" class="card-img-top img-fluid" alt="Competiciones" />
+                        <div class="card-body">
+                            <h5 class="card-title">Competiciones</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ab reprehenderit?
+                                Doloremque, expedita ducimus quidem et officiis sint aspernatur sunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">LEER MÁS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="IMG/instalaciones.jpg" class="card-img-top img-fluid" alt="Instalaciones" />
+                        <div class="card-body">
+                            <h5 class="card-title">Disfruta las instalaciones</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ab reprehenderit?
+                                Doloremque, expedita ducimus quidem et officiis sint aspernatur sunt.
+                            </p>
+                            <a href="#" class="btn btn-primary">LEER MÁS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedorFormulario">
+                <h1> ¡Hazte socio!</h1>
+                <div class="formulario">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Recordar mis datos</label>
+                            <a href="#">Ya tengo cuenta. Iniciar sesión.</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <hr>
+                <h1>¡Sponsors!</h1>
+                <br>
+                <div class="container text-center">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <img src="IMG/nesquik.png" class="sponsor img-fluid" alt="Nesquik">
+                        </div>
+                        <div class="col">
+                            <img src="IMG/Decathlon_Logo.png" class="sponsor img-fluid" alt="Decathlon">
+                        </div>
+                        <div class="col">
+                            <img src="IMG/Movistar+_Logo.png" class="sponsor img-fluid" alt="Movistar">
+                        </div>
+                        <div class="col">
+                            <img src="IMG/Logo_Mercadona.png" class="sponsor img-fluid" alt="Mercadona">
+                        </div>
+                        <div class="col">
+                            <img src="IMG/Gatorade.png" class="sponsor img-fluid" alt="Gatorade">
+                        </div>
+                        <div class="col">
+                            <img src="IMG/Coca-Cola_logo.svg.png" class="sponsor img-fluid" alt="Coca-Cola">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <footer class="text-center bg-dark text-lg-start bg-body-tertiary text-muted">
+                    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                        <div class="me-5 d-none d-lg-block">
+                            <span>¡Búscanos en nuestras redes!</span>
+                        </div>
+                        <div>
+                            <a href="" class="me-4 text-reset">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <div class="row mt-3">
+                                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        <i class="fa-solid fa-bicycle"></i> Mountain Club
+                                    </h6>
+                                    <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea cumque ullam laudantium numquam architecto neque earum dignissimos iste delectus voluptate.
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Sobre nosotros
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset">¿Por qué Mountain Club?</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Equipo que usamos</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Instalaciones</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">FAQ</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        De interés
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset">Precios</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Reservar instalaciones</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Club Joven</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Ayuda</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+                                    <p><i class="fas fa-home me-3"></i> Bormujos, SE 41910, ES</p>
+                                    <p>
+                                        <i class="fas fa-envelope me-3"></i>
+                                        sga@uiuxmountain.es
+                                    </p>
+                                    <p><i class="fas fa-phone me-3"></i> +34 616161616</p>
+                                    <p><i class="fas fa-print me-3"></i> +34 954161111</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                        © 2024 Copyright:
+                        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"> Adirondack UI-UX Mountain Club</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
