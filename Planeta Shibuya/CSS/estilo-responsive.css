@@ -1,13 +1,7 @@
 @media (max-width: 1024px) {
-    * {
-        box-sizing: border-box;
-    }
-    .navegacion {
-        margin: 0 0 2% 0;
-    }
 
-    .textoNav {
-        font-size: 160%;
+    .contenedor {
+        margin: 2% 0;
     }
 
     .busqueda {
@@ -20,7 +14,8 @@
 
     .presenta {
         width: 62%;
-        margin: 9% 2%;
+        height: 50%;
+        margin: 2% 2%;
         background-color: #fff;
         border: 8px solid #333;
     }
@@ -34,6 +29,7 @@
     .viñeta3 {
         width: 64%;
         margin: 2% 2%;
+        height: 50%;
         border: 8px solid #333;
     }
 
@@ -59,16 +55,12 @@
         font-size: 100%;
     }
     .copyright {
-        margin: 3.8% 4%;
+        margin: 3.5% 4%;
         display: flex;
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .idiomas {
         display: none;
-    }
-
-    .footer {
-        height: 17.2vw;
     }
 }

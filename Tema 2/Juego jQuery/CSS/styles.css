@@ -1,0 +1,47 @@
+body {
+    background-image: url(../IMG/sofa.jpg);
+}
+.contenedor {
+    padding: 18% 15%;
+    position: relative;
+}
+
+.tabla {
+    border: 0;
+    border-radius: 8px;
+}
+
+.antena {
+    margin-top: 10%;
+    position: absolute;
+    top: -16%;
+    left: 50%;
+    transform: translateX(-122%);
+    width: 450px;
+    height: 450px;
+}
+
+.tablero {
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+    border: 25px solid #3a3a3a;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.pnj {
+    top: 80px;
+    left: 80px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.boton {
+    margin: 30% 35%;
+    width: 175px;
+    height: 50px;
+    font-weight: bolder;
+    color: #000;
+}

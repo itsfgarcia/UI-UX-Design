@@ -1,0 +1,25 @@
+.logo {
+    margin: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.texto {
+    font-size: 2.5vw;
+    letter-spacing: 0.25vw;
+}
+
+.navegacion {
+    border-radius: 9.25px;
+    font-family: "Six Caps", sans-serif;
+    margin: 2% 2%;
+    padding: 1.5%;
+}
+
+.parrilla {
+}
+
+.tarjetas {
+    display: flex;
+    width: 14rem;
+}
